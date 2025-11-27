@@ -1,0 +1,47 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+venv/
+.venv/
+env/
+ENV/
+
+# ---- Environment variables ----
+.env
+.env.*
+*.key
+apikey.txt
+secrets.json
+
+# ---- FastAPI / Uvicorn ----
+*.log
+*.db
+*.sqlite3
+
+# ---- VSCode ----
+.vscode/
+
+# ---- Streamlit ----
+.streamlit/
+
+# ---- Cache ----
+.cache/
+*.pickle
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Node/JS (if used in future) ----
+node_modules/
+
+# ---- Build/Distribution ----
+build/
+dist/
+*.egg-info/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
